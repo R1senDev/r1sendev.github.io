@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+p {
+    margin-top: 10pt;
+    font-size: 20pt;
+}
+
+img {
+    user-select: none;
+}
+
+h1, p {
+    cursor: default;
+}
+
+a {
+    color: #e64c0c;
+    cursor: pointer;
+    user-select: none;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.68, -0.55, .27, 1.55);
+
+    padding: 5pt 10pt 5pt 10pt;
+    width: 100pt;
+
+    display: inline-block;
+
+    user-select: none;
+    text-align: center;
+    letter-spacing: 0pt;
+
+    background-color: #ecb8a4;
+    border-radius: 5pt;
+}
+
+.button:hover {
+    background-color: #e64c0c;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #8d2a00;
+}
+
+.skew:hover {
+    transform: skewY(2deg);
+}
+
+.rotate {
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.68, -0.55, .27, 1.55);
+}
+
+.rotate:hover {
+    transform: rotate(5deg);
+    cursor: pointer;
+}
+
+header {
+    height: 50pt;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    background-color: #cfcfcf;
+    align-items: center;
+}
+
+#headerimg {
+    height: 80%;
+    border-radius: 100%;
+}
+
+.headerelem {
+    margin-left: 5pt;
+}
+
+.segment {
+    width: 100vw;
+    padding: 75pt;
+
+    color: #ffffff;
+
+    box-sizing: border-box;
+}
+
+#first {
+    text-align: center;
+    padding-top: 20vh;
+    font-size: 40pt;
+}
+
+.title {
+    margin-bottom: 10vh;
+    
+    background: linear-gradient(to bottom, #e64c0c 50%, #cc2200 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionname {
+    font-size: 30pt;
+
+    background: linear-gradient(to bottom, #e64c0c 50%, #cc2200 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fss {
+    min-height: 100vh;
+}
+
+.even {
+    background-color: #1f1f1f;
+}
+
+.odd {
+    background-color: #393939;
+}
+
+.voceven {
+    background-color: #000000;
+}
+
+.vocodd {
+    background-color: #202020;
+}
+
+.vocseg {
+    background-color: #000000;
+    text-align: center;
+}
+
+#vocbtn {
+    margin-top: 10pt;
+    color: #000000;
+}
+
+.actionbar {
+    margin-top: 10pt;
+    padding: 5pt;
+
+    display: inline-block;
+    font-size: 15pt;
+
+    border-radius: 5pt;
+}
+
+a.preferred {
+    color: #00aa00;
+}
+
+.screenshotbox {
+    margin-top: 10pt;
+    padding: 5pt;
+
+    display: inline-block;
+    border-radius: 5pt;
+}
+
+.screenshot {
+    margin-top: 10pt;
+}
