@@ -2,7 +2,7 @@ let latch = false;
 let timeoutId = 0;
 
 function vocbtn() {
-    if (latch) location.href = 'cringe.html';
+    if (latch) location.href = 'cringe.html?via_button=1';
     else {
         latch = true;
         document.getElementById('vocbtntext').innerHTML = 'Sure?';
