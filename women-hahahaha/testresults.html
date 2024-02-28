@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Результаты бинго | R1senDev</title>
+</head>
+<body>
+    <header>
+        <img src="../avatar.png" class="rotate headerelem" id="headerimg">
+        <div class="button skew headerelem" onclick="location.href = '../programs.html'">
+            <h3>Программы</h3>
+        </div>
+        <div class="button skew headerelem" onclick="location.href = '../tools.html'">
+            <h3>Инструменты</h3>
+        </div>
+        <div class="button skew headerelem" onclick="location.href = '../gop.html'">
+            <h3>Кладбище</h3>
+        </div>
+    </header>
+
+    <div class="segment womenbg" id="first">
+        <h1 class="title">Твой результат:<br><span id="pointsamount">...</span><span style="font-size: 40pt;">/200</span></h1>
+    </div>
+
+    <div class="segment womenodd">
+        <h2 class="blackfont"><i>Как интерпретировать эти баллы?</i><br><br><span id="detailinfo">Подожди...</span></h2>
+    </div>
+
+    <div class="segment womeneven" style="text-align: center;">
+        <div class="button backlight blackfont" style="font-size: 30pt; width: unset;" onclick="location.href = 'test.html'" id="backbtn">&#8592; <span id="backbtntext">Назад к тесту</span></div>
+        <div class="button backlight blackfont" style="font-size: 30pt; width: unset;" onclick="location.href = 'https:\/\/github.com/R1senDev'">На GitHub автора &#8594;</div>
+    </div>
+
+    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript">
+        get_results();
+    </script>
+</body>
+</html>
