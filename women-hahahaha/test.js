@@ -68,6 +68,8 @@ function back_as_cheater() {
 }
 
 function init_test() {
+    if (window.screen.width < window.screen.height) location.href = 'mobile.html';
+
     let params = new URLSearchParams(window.location.search);
     if (Number(params.get('cheater'))) {
         document.getElementById('qea').checked = false;
