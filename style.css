@@ -211,6 +211,7 @@ a.preferred {
 
 .screenshot {
     margin-top: 10pt;
+    max-width: 100%;
 }
 
 .cheater {
