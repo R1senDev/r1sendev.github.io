@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Phone number | R1senDev</title>
+</head>
+<body>
+    <style>
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10pt 0 0 10pt;
+        }
+
+        input {
+            accent-color: #e64c0c;
+        }
+    </style>
+
+    <h1>Enter your phone number:</h1>
+
+    <div class="button" onclick="update(0)">Multiply by <span id="value1"></span></div><br>
+    <div class="button" onclick="update(1)">Divide by <span id="value2"></span></div><br>
+    <div class="button" onclick="update(2)">Factorial!</div><br>
+    <div class="button" onclick="update(3)" style="margin-bottom: 10pt;">Reset</div>
+
+    <script type="text/javascript" src="phone2.js"></script>
+
+    <h2>Your phone number is +<span id="number">1</span>. Is this correct?</h2>
+</body>
+</html>
