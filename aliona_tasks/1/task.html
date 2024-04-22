@@ -7,8 +7,15 @@
     </head>
     <body>
         <p class="heading">Задачи для Алёны от R1senDev</p>
-        <h1 class="title"><span class="tasknum">Задача #1:</span> Я не придумал название</h1>
+        <h1 id="title"><span class="tasknum">Задача #1:</span> Я не придумал название</h1>
 
-        <p class="desc">Зашифрована строка, каждый символ которой был преобразован функцией ord в его порядковый номер UTF-8. Задача, как ни странно, состоит в том, что этот текст надо расшифровать.</p>
+        <p class="desc">Зашифрована строка, каждый символ которой был преобразован функцией <span class="code">ord</span> в его код Юникода. Задача, как ни странно, состоит в расшифровке этого текста.<br><br>Строка:<br><br></b></p>
+        <p class="desc"><span class="code">1045;1073;1072;1090;1100;1089;1103;32;1093;1086;1095;1077;1090;1089;1103;44;32;1087;1088;1086;1089;1090;1086;32;1091;1084;1080;1088;1072;1102</span></p>
+        
+        <input type="text" id="answer" placeholder="Ответ" autocomplete="off">
+        <button id="check" onclick="check()">Проверить &#10003;</button>
+        <p class="desc" id="result" style="margin-top: 20pt;"></p>
+
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
