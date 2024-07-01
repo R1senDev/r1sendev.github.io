@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #1f1f1f;
+}
+
+body {
+    padding: 30vh 20pt 0 20pt;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    user-select: none;
+}
+
+.green {
+    color: #00cc00;
+}
+
+#box1, #box2 {
+    position: absolute;
+    width: 100%;
+    transition: opacity cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+}
+
+#box2 {
+    opacity: 0%;
+    transition: opacity cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 50pt 0 0 0;
+}
