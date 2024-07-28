@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It is 29th of February? | R1senDev</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body style="display: flex; width: 100vw; height: 100vh; justify-content: center; align-items: center;">
+    <h1 style="font-size: 200pt;" id="h1">No.</h1>
+    <script defer type="text/javascript">
+        let date = new Date();
+        if (date.getMonth() == 1 && date.getDate() == 29) document.getElementById('h1').innerHTML = 'Yes.';
+    </script>
+</body>
+</html>
