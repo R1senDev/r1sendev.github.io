@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Seamless Trump Painter</title>
+    <title>Completely Normal Painting App</title>
     <style>
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; color: #fff; font-family: -apple-system, sans-serif; display: flex; flex-direction: column; }
         #toolbar { height: 50px; background: #080808; display: flex; align-items: center; justify-content: center; gap: 15px; padding: 0 10px; border-bottom: 1px solid #222; z-index: 10; flex-shrink: 0; }
@@ -19,10 +19,10 @@
     <div id="toolbar">
         <input type="color" id="colorPicker" value="#00ffcc">
         <div style="display:flex; align-items:center; gap:8px;">
-            <span class="label">РљРёСЃС‚СЊ</span>
+            <span class="label">Brush size</span>
             <input type="range" id="sizePicker" min="5" max="100" value="10">
         </div>
-        <button id="resetBtn">РЎР‘Р РћРЎ</button>
+        <button id="resetBtn">Reset</button>
     </div>
     <div id="container"><canvas id="canvas"></canvas></div>
 
